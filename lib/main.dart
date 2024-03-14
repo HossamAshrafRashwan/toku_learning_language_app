@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:toku_learning_language_app/view/hom_view.dart';
+import 'package:toku_learning_language_app/view/home_view.dart';
 
 void main() {
   runApp(const TokuApp());
