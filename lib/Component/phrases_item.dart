@@ -19,6 +19,7 @@ class PhraseItem extends StatelessWidget {
         ),
         height: 100,
         child: Row(
+          mainAxisAlignment: MainAxisAlignment.spaceBetween,
           children: [
             Padding(
               padding: const EdgeInsets.only(left: 16),
@@ -41,9 +42,6 @@ class PhraseItem extends StatelessWidget {
                   ),
                 ],
               ),
-            ),
-            const Spacer(
-              flex: 1,
             ),
             Padding(
               padding: const EdgeInsets.only(
