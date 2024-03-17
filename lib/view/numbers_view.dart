@@ -5,7 +5,7 @@ import 'package:toku_learning_language_app/model/toku_app_model.dart';
 class NumberView extends StatelessWidget {
   const NumberView({super.key});
 
-  final List<TokuModel> numbers = const [
+  final List<TokuModel> numbersList = const [
     TokuModel(
       image: 'assets/images/numbers/number_one.png',
       jpName: "ICHI",
@@ -90,9 +90,9 @@ class NumberView extends StatelessWidget {
         ),
       ),
       body: ListView.builder(
-        itemCount: numbers.length,
+        itemCount: numbersList.length,
         itemBuilder: (context, index) => Item(
-          number: numbers[index],
+          item: numbersList[index],
           itemColor: const Color(0xffef9235),
         ),
       ),

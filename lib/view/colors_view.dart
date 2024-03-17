@@ -68,7 +68,7 @@ class ColorView extends StatelessWidget {
       body: ListView.builder(
         itemCount: numbers.length,
         itemBuilder: (context, index) => Item(
-          number: numbers[index],
+          item: numbers[index],
           itemColor: const Color(0xff854cae),
         ),
       ),
